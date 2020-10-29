@@ -55,11 +55,22 @@ main,
   border-radius: 3px;
 }
 
+.main-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.main-items figure {
+  margin: 0;
+}
+
 .main-item {
   background-color: #fff;
-  width: 400px;
+  width: 490px;
   text-align: center;
   padding: 30px;
+  border-radius: 10px;
 }
 
 .main-item p {
